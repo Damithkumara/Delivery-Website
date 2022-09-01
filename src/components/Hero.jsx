@@ -4,7 +4,7 @@ import { HomeOne } from "../assets";
 const Hero = () => {
   return (
     <section id="home" className={`flex max-w-[1280px] sm:flex-row flex-col lg:px-20 xl:px-40 md:px-20  sm:py-2`}>
-      <div className="flex-1 ">
+      <div className="flex-1 xl:my-12 md:my-8 lg:my-8 xl:pt-12">
         <div className="justify-center items-center">
           <div>
             <h1 className="text-[45px] w-[350px] justify-center font-semibold items-center font-poppins sm:text-[35px] sm:w-[250px] md:w-[250px] lg:text-[50px] lg:w-[350px]">
@@ -31,7 +31,7 @@ const Hero = () => {
         <img
           src={HomeOne}
           alt="homeimgone"
-          className="w-auto h-auto sm:w-[300px] sm:h-[250px] md:scale-x-150 md:scale-y-150 md:mr-0 md:pr-0"
+          className="w-auto h-auto sm:w-[300px] sm:h-[250px] sm:scale-x-150 sm:scale-y-150 md:w-auto md:h-auto lg:w-auto lg:h-auto md:mr-0 md:pr-0"
         />
       </div>
     </section>
