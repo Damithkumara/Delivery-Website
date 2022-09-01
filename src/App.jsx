@@ -1,4 +1,4 @@
-import { NavBar , Hero , About } from "./components";
+import { NavBar , Hero , About, Service } from "./components";
 
 function App() {
   return (
@@ -19,6 +19,12 @@ function App() {
     <div className="bg-primary flex justify-center items-start sm:px-16 px-6 ">
       <div className="xl:max-w-[1280px] w-full">
         <About />
+      </div>
+    </div>
+
+    <div className="bg-primary flex justify-center items-start sm:px-16 px-6 ">
+      <div className="xl:max-w-[1280px] w-full">
+        <Service />
       </div>
     </div>
 

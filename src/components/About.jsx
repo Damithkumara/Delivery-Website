@@ -3,8 +3,8 @@ import {AboutOne , AboutTwo} from '../assets'
 
 const About = () => {
   return (
-    <section id='about' className='mb-10 '>
-        <div className='flex sm:flex-row flex-col-reverse mb-8'>
+    <section id='about' className='mb-5 '>
+        <div className='flex sm:flex-row flex-col-reverse mb-'>
             <div className=' basis-1/2'>
                 <img src={AboutOne} alt="" />
             </div>
