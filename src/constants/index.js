@@ -42,5 +42,59 @@ export const services = [
     },
 ];
 
+export const footerLinks = [
+    {
+        title : "Our Services",
+        links : [
+            {
+                name: "Pricing",
+                link: "#",
+            },
+            {
+                name: "Discounts",
+                link: "#",
+            },
+            {
+                name: "Report a bug",
+                link: "#",
+            },
 
+            
+        ],
+    },
+    {
+        title : "Our Company",
+        links : [
+            {
+                name: "Blog",
+                link: "#",
+            },
+            {
+                name: "Our Mission",
+                link: "#",
+            },
+            {
+                name: "Get in touch",
+                link: "#",
+            },
+        ],
+    },
+    {
+        title : "Community",
+        links : [
+            {
+                name: "Support",
+                link: "#",
+            },
+            {
+                name: "Questions",
+                link: "#",
+            },
+            {
+                name: "Help",
+                link: "#",
+            },
+        ],
+    },
+];
 

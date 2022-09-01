@@ -10,6 +10,13 @@ import Close from './close.svg';
 import Logo from './logo.svg'
 import Light from './light.svg'
 import Dark from './dark.svg'
+import Apple from './appstore.svg';
+import Google from './playstore.svg'
+import Facebook from './facebook.svg'
+import Instagram from './instagram.svg'
+import Twitter from './twitter.svg'
+
+
 
 export {
     HomeOne,
@@ -24,4 +31,9 @@ export {
     Logo,
     Light,
     Dark,
+    Apple,
+    Google,
+    Facebook, 
+    Instagram,
+    Twitter,
 };
